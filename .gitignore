@@ -1,4 +1,5 @@
 # Secretos
+# para crear una excepcion se debe poner !.enx.example
 .env
 .env.*
 !.env.example

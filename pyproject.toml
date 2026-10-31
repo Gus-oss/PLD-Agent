@@ -1,3 +1,6 @@
+# Se declara el proyecto Python con su nombre, las versionesde pyyhon y las dependencias. 
+# Remplaza el requirments.txt  y guarda la configuracion de herramientas como ruff  y pytest
+
 [project]
 name = "pld-agent"
 version = "0.1.0"
