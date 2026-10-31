@@ -3,3 +3,12 @@
        rev: v8.30.1
        hooks:
          - id: gitleaks
+# es un mecanismo de Git que ejecuta revisiones automáticas justo antes de que se guarde un commit. 
+# Si una falla, el commit se cancela y te avisa. Se configura con un archivo .pre-commit-config.yaml.
+
+# Gitleaks es una herramienta que busca secretos en el código, como llaves de API, 
+# tokens o contraseñas, reconociendo sus patrones (por ejemplo, el formato de una llave de Anthropic o de AWS).
+
+# si por descuido pegas una llave en un .py o en un notebook, el commit se bloquea antes de entrar al historial. 
+# Es una segunda barrera por si el .gitignore falla, porque el .gitignore solo protege archivos completos, 
+# no una llave pegada dentro del código.
