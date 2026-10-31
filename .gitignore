@@ -8,8 +8,8 @@
 *-sa-key*.json
 
 # Datos y resultados (pesados o reproducibles; no van a Git)
-data/
-results/
+/data/
+/results/
 *.parquet
 *.csv
 *.zip
