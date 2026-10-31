@@ -1,0 +1,14 @@
+[project]
+name = "PLD-Agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "pyspark>=3.5",
+    "pandas",
+    "scikit-learn",
+    "pyyaml",
+    "python-dotenv",
+]
+
+[dependency-groups]
+dev = ["pytest", "ruff", "pre-commit"]

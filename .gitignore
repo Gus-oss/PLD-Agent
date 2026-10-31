@@ -1,0 +1,39 @@
+# Secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*-sa-key*.json
+
+# Datos y resultados (pesados o reproducibles; no van a Git)
+data/
+results/
+*.parquet
+*.csv
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark
+metastore_db/
+spark-warehouse/
+derby.log
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
