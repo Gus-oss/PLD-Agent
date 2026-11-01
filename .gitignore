@@ -9,7 +9,8 @@
 *-sa-key*.json
 
 # Datos y resultados (pesados o reproducibles; no van a Git)
-/data/
+/data/*
+!/data/README.md
 /results/
 *.parquet
 *.csv
